@@ -4,6 +4,8 @@ Domain-slot relationship modeling using Transformers for dialogue state tracking
 
 Script running example
 python 
+
+```
 -m torch.distributed.launch 
 --nproc_per_node=4 
 src/main_dst.py 
@@ -18,3 +20,4 @@ src/main_dst.py
 --ds-type split 
 --learning-rate 1e-5 
 --fp-16
+```
